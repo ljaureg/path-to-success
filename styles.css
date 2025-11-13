@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0.14..32.100..900;1,14..32,100..900&family=Kavoon&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 :root {
     --teal: #4CA7C0;
@@ -11,11 +12,20 @@
 }
 
 body {
-    font-family: 'Inter';
+    font-family: "Inter";
+    margin: 0;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: var(--purple);
+    max-width: 450px;
 }
 
 h1, h2 {
-    font-family: 'Kavoon';
+    font-family: "Kavoon";
 }
 
 h1 {
@@ -36,4 +46,89 @@ h4 {
 
 .nav-h2 {
     font-size: 1.5em;
+    font-family: "Inter";
+    font-style: italic;
+    margin: 0;
+}
+
+.hero {
+    text-align: center;
+    color: var(--white);
+    padding: 1.25rem 1rem 0.75rem;
+}
+
+.hero h1 {
+    margin: 0;
+}
+
+.tagline {
+    margin: 0.25rem 0 0;
+    font-size: 0.9rem;
+}
+
+.menu {
+    background-color: var(--yellow);
+    text-align: center;
+    padding: 0.75rem;
+    margin-top: 2rem;
+}
+
+.menu a {
+    display: block;
+    background-color: var(--white);
+    color: var(--dark-gray);
+    text-decoration: none;
+    padding: 0.5rem;
+    margin-top: 0.4rem;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.services {
+    color: var(--white);
+    padding-left: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.2rem;
+    text-align: left;
+}
+
+.coaching {
+    color: var(--yellow);
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    margin-top: 0.3rem;
+    text-align: left;
+}
+
+.personal-development {
+    background-color: var(--white);
+    border-radius: 0.8rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.personal-development h4 {
+    font-weight: bold;
+    color: var(--purple);
+    margin: 0;
+}
+
+.personal-development p {
+    margin: 0.5rem 0 0 0;
+    line-height: 1.4;
+}
+
+.career-coaching {
+    background-color: var(--white);
+    border-radius: 0.8rem;
+    padding: 1rem;
+    margin: 1rem;
 }
